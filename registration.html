@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Registration</title>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="user-scalable = yes">
 </head>
 
 <body>
@@ -13,10 +14,6 @@
     <header class="text-gray-600 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0" href='index.html'>
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg> -->
-                <!-- <img src="static\images\dtuLogo.png" alt="DTU Logo" width="80" height="80" /> -->
                 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
                     <path fill="#999"
@@ -60,45 +57,27 @@
                 <a class="mr-8 hover:text-white mx-12" href='contactus.html'>Contact Us</a>
             </nav>
             <span class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <!-- <a class="mr-5 hover:text-white">First Link</a>
-            <a class="mr-5 hover:text-white">Second Link</a>
-            <a class="mr-5 hover:text-white">Third Link</a>
-            <a class="mr-5 hover:text-white">Fourth Link</a> -->
 
                 Paschim Vihar, kali mandir
                 <br />Near Metro station
                 <br />Delhi, India
             </span>
-            <!-- <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button> -->
         </div>
     </header>
 
 
     <!-- registration section -->
-    <section class="text-gray-500 bg-white body-font">
+    <section class="text-gray-500 bg-white body-font" style="background-image: url(static/images/caleb-woods-fulXJYIvRi8-unsplash.jpg); background-size: cover; background-color: rgba(255,255,255,0.2);
+    background-blend-mode: lighten;">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap -mx-4 -mb-10 text-center">
                 <div class="sm:w-6/12 mb-10 px-4">
-                    <!-- <div class="rounded-lg h-64 overflow-hidden">
-                        <img alt="content" class="object-cover object-center h-full w-full"
-                            src="https://dummyimage.com/1201x501">
-                    </div> -->
-                    <!-- <ul class='text-left' type='disk'>
-                        <li>Submit a hard copy of your passport size photo on registration desk</li>
-                        <li>Note registration number after successfull registration to obtain id card</li>
-                        <li>Give correct details</li>
-                        <li></li>
-                    </ul> -->
-                    <div>
+                    <div class='p-20' style='background-color: rgba(0,0,0,0.7);'>
                         <div>
                             <div class="flex flex-col text-center w-full mb-12">
-                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Register Here
+                                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Register Here
                                 </h1>
-                                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill up correct details</p>
+                                <p>Name should be greater than 3 characters, email should be valid </p>
                             </div>
                             <form>
                                 <div class="w-full mx-auto">
@@ -128,19 +107,19 @@
                                         </div>
                                     </div> -->
                                     <div class="flex flex-wrap -m-2">
-                                        <div class="p-2 w-full">
+                                        <div class="p-3 w-full">
                                             <input
-                                                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                                                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-yellow-500 text-base px-4 py-2"
                                                 placeholder="Name" type="text">
                                         </div>
-                                        <div class="p-2 w-full">
+                                        <div class="p-3 w-full">
                                             <input
-                                                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
+                                                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-yellow-500 text-base px-4 py-2"
                                                 placeholder="Email" type="email">
                                         </div>
-                                        <div class="p-2 w-full">
+                                        <div class="p-3 w-full">
                                             <select
-                                                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2">
+                                                class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-yellow-500 text-base px-4 py-2">
                                                 <option class='text-gray-500'>B.Tech in Computer Science</option>
                                                 <option class='text-gray-500'>B.tech in Electrical</option>
                                                 <option class='text-gray-500'>B.Tech in Mechanical</option>
@@ -148,7 +127,7 @@
                                         </div>
                                         <div class="p-2 w-full">
                                             <button
-                                                class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                                                class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg"
                                                 type='reset'>Submit</button>
                                         </div>
                                     </div>
@@ -163,52 +142,42 @@
                 <div class="sm:w-1/12">
                 </div>
 
-                <div class="sm:w-5/12 mb-10 px-4">
-                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">Registration</h1>
-                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Fill up the basic details given on the right
-                        side</p>
+                <div class="sm:w-5/12 mb-10 p-10 text-gray-500 body-font" style='background-color: rgba(0,0,0,0.7);'>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Steps to fill the form</h1>
+                    
                     <div class="flex flex-wrap w-full text-left">
                         <div class="w-full md:pr-10 md:py-6">
                             <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
                                 <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                                     </svg>
                                 </div>
                                 <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1
+                                    <h2 class="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">STEP 1
                                     </h2>
-                                    <p class="leading-relaxed">Enter Your Name</p>
+                                    <p class="leading-relaxed text-white">Enter Your Name</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
                                 <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                         <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                                     </svg>
                                 </div>
                                 <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 2
+                                    <h2 class="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">STEP 2
                                     </h2>
-                                    <p class="leading-relaxed">Enter Your Email Address.</p>
+                                    <p class="leading-relaxed text-white">Enter Your Email Address.</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
                                 <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                         <circle cx="12" cy="5" r="3"></circle>
@@ -216,17 +185,14 @@
                                     </svg>
                                 </div>
                                 <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 3
+                                    <h2 class="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">STEP 3
                                     </h2>
-                                    <p class="leading-relaxed">Select your course</p>
+                                    <p class="leading-relaxed text-white">Select your course</p>
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
                                 <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                         <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -234,14 +200,14 @@
                                     </svg>
                                 </div>
                                 <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4
+                                    <h2 class="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">STEP 4
                                     </h2>
-                                    <p class="leading-relaxed">Submit the form</p>
+                                    <p class="leading-relaxed text-white">Submit the form</p>
                                 </div>
                             </div>
                             <div class="flex relative">
                                 <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-500 inline-flex items-center justify-center text-white relative z-10">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
                                         stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -249,9 +215,9 @@
                                     </svg>
                                 </div>
                                 <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH
+                                    <h2 class="font-medium title-font text-sm text-yellow-500 mb-1 tracking-wider">Step 5
                                     </h2>
-                                    <p class="leading-relaxed">Note the registration id to get your id card.</p>
+                                    <p class="leading-relaxed text-white">Note the registration id to get your id card.</p>
                                 </div>
                             </div>
                         </div>
